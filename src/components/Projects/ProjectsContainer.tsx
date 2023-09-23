@@ -9,6 +9,18 @@ const ProjectsContainer: React.FC = () => {
           This is chaos with some veri nice things or something idk
         </div>
       </ProjectsItem>
+
+      <ProjectsItem title="Chaos" iconSrouce="chaos.png">
+        <div className="h-[200px] p-2">
+          This is chaos with some veri nice things or something idk
+        </div>
+      </ProjectsItem>
+
+      <ProjectsItem title="Chaos" iconSrouce="chaos.png">
+        <div className="h-[200px] p-2">
+          This is chaos with some veri nice things or something idk
+        </div>
+      </ProjectsItem>
     </div>
   )
 }

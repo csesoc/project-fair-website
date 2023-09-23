@@ -26,9 +26,9 @@ const Introduction: React.FC<TIntroduction> = ({ className = "" }) => {
         </h3>
       </div>
 
-      <button className="px-2 py-4 rounded-full bg-[#485EBE]">
+      <a className="px-4 py-4 rounded-full bg-[#485EBE]" href="#">
         Project Challenges
-      </button>
+      </a>
     </div>
   )
 }
