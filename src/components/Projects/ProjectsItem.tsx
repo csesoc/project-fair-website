@@ -2,14 +2,14 @@ import React, { useState } from "react"
 import CheveronDown from "../../assets/Icons/CheveronDown"
 import { twMerge } from "tailwind-merge"
 
-type TProjectsitem = {
+type TProjectsItem = {
   children?: string | JSX.Element | JSX.Element[]
   title: string
-  iconSrouce?: string
+  iconSource?: string
   imgContainerClassname?: string
 }
 
-const ProjectsItem: React.FC<TProjectsitem> = ({ children, title, iconSrouce, imgContainerClassname }) => {
+const ProjectsItem: React.FC<TProjectsItem> = ({ children, title, iconSource: iconSource, imgContainerClassname }) => {
   const [expanded, setExpanded] = useState(false)
 
   return (
@@ -19,7 +19,7 @@ const ProjectsItem: React.FC<TProjectsitem> = ({ children, title, iconSrouce, im
         onClick={() => setExpanded(state => !state)}
       >
         <div className="flex items-center gap-2">
-          <img className={twMerge("h-[1.25rem]", imgContainerClassname)} src={iconSrouce} />
+          <img className={twMerge("h-[1.25rem]", imgContainerClassname)} src={iconSource} />
           <h2 className="text-xl">{title}</h2>
         </div>
 
