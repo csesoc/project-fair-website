@@ -5,7 +5,7 @@ import ProjectsContainer from "./components/Projects/ProjectsContainer"
 
 const App: React.FC = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen overflow-x-hidden scrollbar-none">
       <HeaderBanner />
 
       <div className="px-4">
