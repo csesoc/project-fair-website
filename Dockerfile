@@ -9,7 +9,7 @@ RUN npm ci
 
 COPY . .
 
-RUN yarn run build
+RUN npm run build
 
 # nginx state for serving content
 FROM nginx:1.25.0-alpine as runner
