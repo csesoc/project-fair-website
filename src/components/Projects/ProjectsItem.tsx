@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import CheveronDown from "../../assets/Icons/CheveronDown"
+import CheveronDown from "../../assets/Icons/ChevronDown"
 import { twMerge } from "tailwind-merge"
 
 type TProjectsItem = {
