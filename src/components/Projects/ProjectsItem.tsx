@@ -29,7 +29,7 @@ const ProjectsItem: React.FC<TProjectsItem> = ({ children, title, iconSource: ic
       </button>
 
       <div className={`${expanded || "h-0"} transition-all`}>
-        <div className={`w-full bg-[#C6CBFF] text-black/90 rounded-xl origin-top ${expanded || "scale-y-0"} transition-all`}>
+        <div className={`w-full bg-[#C6CBFF] text-black/90 rounded-xl origin-top ${expanded || "scale-y-0"} transition-all p-3`}>
           {children}
         </div>
       </div>
