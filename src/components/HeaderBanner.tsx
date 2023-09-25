@@ -18,7 +18,7 @@ const HeaderBanner: React.FC = () => {
 
   // Wacky layout and programming lol
   return isMobile ? (
-    <div className="relative bg-[url('mobile/clouds.png')] w-full aspect-[9/16] bg-cover flex flex-col items-center justify-center">
+    <div className="relative bg-[url('/mobile/clouds.png')] w-full aspect-[9/16] bg-cover flex flex-col items-center justify-center">
       <img src="mobile/fair_text.png" />
 
       <h1 className="absolute text-[8vw] top-[30%] text-center">Welcome to</h1>
@@ -29,7 +29,7 @@ const HeaderBanner: React.FC = () => {
       </div>
     </div>
   ) : (
-    <div className="relative bg-[url('desktop/clouds.png')] w-full aspect-video bg-cover flex flex-col items-center justify-center">
+    <div className="relative bg-[url('/desktop/clouds.png')] w-full aspect-video bg-cover flex flex-col items-center justify-center">
       <img src="desktop/fair_text.png" />
 
       <h1 className="absolute text-[6vw] top-[30%] text-center">Welcome to</h1>
