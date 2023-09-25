@@ -4,12 +4,10 @@ import ProjectsItem from "./ProjectsItem"
 const ProjectsContainer: React.FC = () => {
   return (
     <div className="px-4 flex-col gap-4">
-      <ProjectsItem title="Chaos" iconSource="/logos/chaos.png">
-        <div className="h-[200px] p-2">
-          Are you allergic to Google Sheets and Excel? Do you have nightmares from browsing through millions of lines of CSV just to pick one applicant to take in?
+      <ProjectsItem title="Chaos" iconSource="logos/chaos.png">
+        Are you allergic to Google Sheets and Excel? Do you have nightmares from browsing through millions of lines of CSV just to pick one applicant to take in?
 
-          Introducing Chaos, the ultimate lifesaver for clubs and societies! Say goodbye to the chaos and hello to simplicity. Chaos streamlines everything, making applications a breeze. With a Rust 🦀 backend, type-safe and secure, no more segfaults and losing data! Our minimalistic while aesthetic frontend interface frees your eyes and brains from the repetitive and dull rows and columns of data sheets 📃
-        </div>
+        Introducing Chaos, the ultimate lifesaver for clubs and societies! Say goodbye to the chaos and hello to simplicity. Chaos streamlines everything, making applications a breeze. With a Rust 🦀 backend, type-safe and secure, no more segfaults and losing data! Our minimalistic while aesthetic frontend interface frees your eyes and brains from the repetitive and dull rows and columns of data sheets 📃
       </ProjectsItem>
       <ProjectsItem title="Circles" iconSource="/logos/circles.png">
 
@@ -20,10 +18,8 @@ const ProjectsContainer: React.FC = () => {
       <ProjectsItem title="Freerooms" iconSource="/logos/freerooms.png">
 
       </ProjectsItem>
-      <ProjectsItem title="Jobsboard" iconSource="/logos/jobsboard.png">
-        <div className="h-[200px] p-2">
-          Are you tired of hearing your friends talk about their exciting summer internship experiences while feeling left out? Fear not, because Jobsboard has got your back so you can wave goodbye to spending your summer working on projects to put on your resume! Supported by CSESoc’s strong partnerships with top tech giants in Australia like Atlassian, IMC, Canva and more, you will have immediate access to opportunities from these companies as soon they become available on Jobsboard!
-        </div>
+      <ProjectsItem title="Jobsboard" iconSource="logos/jobsboard.png">
+        Are you tired of hearing your friends talk about their exciting summer internship experiences while feeling left out? Fear not, because Jobsboard has got your back so you can wave goodbye to spending your summer working on projects to put on your resume! Supported by CSESoc’s strong partnerships with top tech giants in Australia like Atlassian, IMC, Canva and more, you will have immediate access to opportunities from these companies as soon they become available on Jobsboard!
       </ProjectsItem>
       <ProjectsItem title="Notangles" iconSource="/logos/notangles.png">
 
