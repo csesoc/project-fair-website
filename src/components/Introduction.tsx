@@ -10,7 +10,7 @@ const Introduction: React.FC<TIntroduction> = ({ className = "" }) => {
     <div className={twMerge("flex flex-col gap-4 items-center justify-center", className)}>
       <div className="text-center text-black/90">
         <h3>
-          Hello 👋 This is our website for our exciting Projects Fair, where you can walk around and get to know some of our talented developers and tehir projects, and see how they can benefit you UNSW life and planning. 
+          Hello 👋 This is our website for our exciting Projects Fair, where you can walk around and get to know some of our talented developers and their projects, and see how they can level up your UNSW life.
         </h3>
 
         <br />
