@@ -7,65 +7,66 @@ const ProjectsContainer: React.FC = () => {
       <ProjectsItem title="Chaos" iconSource="logos/chaos.png">
         <p>
           Are you allergic to Google Sheets and Excel? Do you have nightmares from browsing through millions of lines of CSV just to pick one applicant to take in?
-          <br />
+          <br /><br />
           Introducing Chaos, the ultimate lifesaver for clubs and societies! Say goodbye to the chaos and hello to simplicity. Chaos streamlines everything, making applications a breeze. With a Rust 🦀 backend, type-safe and secure, no more segfaults and losing data! Our minimalistic while aesthetic frontend interface frees your eyes and brains from the repetitive and dull rows and columns of data sheets 📃
-          <br />
+          <br /><br />
           You can preview Chaos at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://chaos.csesoc.app/">https://chaos.csesoc.app/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Circles" iconSource="/logos/circles.png">
         <p>
           Tired of using a poorly laid out spreadsheet to cobble together a plan to follow for the next 3-8 years of your life? Have no fear, Circles is here!
-          <br />
+          <br /><br />
           Circles is a UNSW degree planner where you can explore and validate your degree structure.
-          <br />
+          <br /><br />
           You can access Circles at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://circles.csesoc.app/">https://circles.csesoc.app/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Discord Bot" iconSource="/logos/discord_bot.png">
         <p>
           Discord Bot is your friendly CSE discord companion, offering various features such as checking what week it is, explaining what all DevSoc Projects do, the 24 minigame and more to come!
-          <br />
+          <br /><br />
           A sneak peak at coming features:
           <ul className="space-y-1 list-disc list-inside">
             <li>Weekly Lunch buddy - a speed friending feature for organising and meeting up on-campus each week with like-minded friendly people!</li>
             <li>Sydney Trains Delay API - conveniently check if the light rail is down from the comfort of your study room before you get hit with a nasty surprise at Anzac Parade or High Street!</li>
             <li>Travel Guide - a database of community-suggested cool places to visit, play and eat at!</li>
           </ul>
+          <br />
           Head to the <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://discord.gg/BTDK8NKfgz">CSESoc Discord</a> to see the bot in action.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Freerooms" iconSource="/logos/freerooms.png">
         <p>
           Freerooms is a tool designed to help UNSW students find empty rooms on campus.
-          <br />
+          <br /><br />
           🥾Have you ever wandered around campus, searching for an empty study room?🚪 Have you ever wanted to study somewhere other than the weird smelling ASB🏢, the loud corridors of Ainsworth 🏦 or the poorly decorated main library? 📚 If you are a director or exec, have you ever wanted to find a room for your in-person meetings or society event? Whether you're in need of a quiet study nook or a large space for your society's next big event, Freerooms has got you covered!
-          <br />
+          <br /><br />
           You can access Freerooms at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://freerooms.csesoc.app/">https://freerooms.csesoc.app/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Jobsboard" iconSource="logos/jobsboard.png">
         <p>
           Are you tired of hearing your friends talk about their exciting summer internship experiences while feeling left out? Fear not, because Jobsboard has got your back so you can wave goodbye to spending your summer working on projects to put on your resume! Supported by CSESoc's strong partnerships with top tech giants in Australia like Atlassian, IMC, Canva and more, you will have immediate access to opportunities from these companies as soon they become available on Jobsboard!
-          <br />
+          <br /><br />
           You can preview Jobsboard at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://jobsboard.staging.csesoc.unsw.edu.au/">https://jobsboard.staging.csesoc.unsw.edu.au/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Notangles" iconSource="/logos/notangles.png">
         <p>
           Class registrations out and you have no clue how your next term is going to pan out? No idea how to come up with a timetable that balances all your classes and social events that you cannot miss? Do not worry! Notangles got your back.
-          <br />
+          <br /><br />
           Notangles is your interactive timetable application, that can help you and your friends plan out a weekly schedule by showing you available classes for your courses and allow you to also slot in recurring events that can not be missed. It can also generate a timetable for you by taking in your preferences. Let there be no more timetable-tangles with Notangles!
-          <br />
+          <br /><br />
           You can access Notangles at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://notangles.csesoc.app/">https://notangles.csesoc.app/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Structs.sh" iconSource="/logos/structs.png">
         <p>
           Structs.sh is an educational tool for computer science students that visualizes the most fundamental data structures (arrays, linked lists and binary search trees) and algorithms (sorting, searching and traversal).
-          <br />
+          <br /><br />
           The team this year is committed to transforming your educational experience by developing an application never seen before: a visual debugger that lets users type in arbitrary C code for our website to visualize the data structure(s) present in memory.
-          <br />
+          <br /><br />
           You can access Structs.sh at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://structs.sh/">https://structs.sh/</a>. You can also preview the new visual debugger at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://structs.onrender.com/">https://structs.onrender.com/</a>.
         </p>
       </ProjectsItem>
@@ -75,22 +76,24 @@ const ProjectsContainer: React.FC = () => {
       <ProjectsItem title="Uni-lectives" iconSource="/logos/unilectives.png">
         <p>
           Sick and tired of searching through websites and forum posts to find the perfect course? Only to discover that it's offered once a year? Or perhaps the workload turned out to be completely different from your expectations? Look no further, Uni-lectives has got your back.
-          <br />
+          <br /><br />
           With 1000 unique reviews and counting across a variety of faculties, Uni-lectives is your one stop shop for UNSW courses and electives, where you can access valuable reviews but also contribute your own, empowering others to make informed choices about their degree progression!
-          <br />
+          <br /><br />
           You can access Unilectives at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://unilectives.csesoc.app/">https://unilectives.csesoc.app/</a>.
         </p>
       </ProjectsItem>
       <ProjectsItem title="Website" iconSource="/logos/website.png">
         <p>
-          <b>CMS</b>:
+          <b className="underline">CMS</b>:
           <br />
           Each year CSESoc creates and publishes a number of blogs, articles, and guides dedicated to exploring interesting topics and helping students with their studies. The CMS aims to make creating these documents easier and more efficient by unifying the system used across portfolios. This year the team has focused on developing the fundamental building blocks blog writers may need such as having sections of code within documents. The CMS team continues to evolve the application with the objective of having concurrent editing capabilities.
-          <br />
-          <b>Website</b>:
+          <br /><br />
+          You can preview the CMS at the website stall.
+          <br /><br />
+          <b className="underline">Website</b>:
           <br />
           Representing the CSE Society, the website showcases the main features of the community and collates all relevant resources in an easily located manner. Decorated with links to portfolios, guides, sponsors, and relevant social media platforms, the website allows all students to quickly navigate to the service they require.
-          <br />
+          <br /><br />
           You can preview the website at <a className="text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://tmp-black-tau.vercel.app/">https://tmp-black-tau.vercel.app/</a>.
         </p>
       </ProjectsItem>
